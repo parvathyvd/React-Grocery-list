@@ -70,7 +70,7 @@ function App() {
 
   return (
     <section className="section-center">
-      <h2 className="text-center">grocery bud setup</h2>
+      <h2 className="text-center">grocery bud</h2>
       {alert.show && (
         <Alert alert={alert} removeAlert={removeAlert} list={list} />
       )}
